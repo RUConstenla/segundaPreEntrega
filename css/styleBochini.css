@@ -1,0 +1,102 @@
+
+.inicioo {
+    background-image: url(../imagenesIdolos/RicardoBochini.jpg);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 200vh;
+    margin: 0;
+}
+
+
+.titulo {
+    position: absolute;
+    top: 0;
+    border-bottom: 7px solid #F0EA7B;
+    font-size: 20px;
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    background-color: #CA361B;
+    color: #F0EA7B;
+    width: 100%;
+    padding: 1px 0;
+
+}
+
+
+.fichaJugador {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 170px;
+    height: 1110px; 
+    background-color: #CA361B; 
+    padding: 20px; 
+    overflow: auto;
+    border-left: 5px solid #F0EA7B;
+    border-bottom: 5px solid #F0EA7B;
+}
+
+.ficha{
+
+    text-align: center;
+    font-size: 50px;
+    color: #F0EA7B;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.datos{
+
+    font-size: 25px;
+    color: #F0EA7B;
+    font-family: 'Times New Roman', Times, cursive;
+}
+
+.Independiente {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 170px;
+    height: 1110px; 
+    background-color: #CA361B; 
+    padding: 20px; 
+    overflow: auto;
+    border-right: 5px solid #F0EA7B;
+    border-bottom: 5px solid #F0EA7B;
+}
+
+.contacto {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: #F0EA7B;
+    padding: 5px;
+}
+
+.contacto p {
+    margin: 0;
+    font-size: 20px;
+    color: #DE2403;
+}
+
+.contacto img {
+    width: 50px;
+    height: auto;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: #CA361B;
+    color: #F0EA7B;
+    text-align: center;
+    padding: 10px;
+    border-top: 5px solid #F0EA7B;
+    text-decoration: none;
+}
+
+.footer a{
+
+    color: #F0EA7B;
+}

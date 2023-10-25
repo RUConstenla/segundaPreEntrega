@@ -1,0 +1,133 @@
+.inicio {
+    background-color: #CA361B;
+    padding-bottom: 50px;
+}
+
+
+.titulo {
+    border: 7px solid black;
+    font-size: 37px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ifc, .cai {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.pagina {
+    font-size: 40px;
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: antiquewhite;
+}
+
+
+.queEsUnIdolo {
+    font-size: 25px;
+    font-family: serif, 'Times New Roman', Times;
+    color: antiquewhite;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    display: grid;
+    gap: 20px;
+}
+
+.que {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.imagenesIdolos {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenesIdolos img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin: 0 10px;
+}
+
+.nombresIdolos {
+
+    text-align: center;
+}
+
+.nombresIdolos p {
+
+    font-size: 25px;
+    margin: 0;
+    color: white;
+    font-family: fantasy, 'Times New Roman', Times;
+}
+
+.nombresIdolos a:hover img {
+    filter: grayscale(100%);
+}
+
+.contacto {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+}
+
+.contacto p {
+    margin: 0;
+    font-size: 20px;
+    color: #DE2403;
+}
+
+.contacto img {
+    width: 50px;
+    height: auto;
+}
+
+.footer {
+
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 3px solid white;
+
+}
+
+.footer h2 {
+
+    font-size: 20px;
+    text-align: end;
+}
+
+@media (max-width: 768px) {
+    .titulo2 {
+        flex-direction: column;
+    }
+
+    .ifc, .cai {
+        align-self: center;
+        position: static;
+    }
+
+    .imagenesIdolos {
+        justify-content: flex-start;
+    }
+}
